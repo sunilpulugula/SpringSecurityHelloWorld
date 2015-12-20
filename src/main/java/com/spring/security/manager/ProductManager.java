@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import com.spring.security.domain.Product;
 
 /**
- * @author <a href="mailto:sunil.pulugula@wavemaker.com">Sunil Kumar</a>
+ * @author <a href="mailto:psunil1278@gmail.com">Sunil Kumar</a>
  * @since 19/12/15
  */
 @Service

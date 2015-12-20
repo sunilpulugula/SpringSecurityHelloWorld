@@ -10,6 +10,6 @@
     <br/>
     <h3>This is a welcome page!!!</h3>
 
-    <a href="<c:url value="/userpage" />">Login</a>
+    Click here for <a href="<c:url value="/userpage" />">Login</a>.
 </body>
 </html>

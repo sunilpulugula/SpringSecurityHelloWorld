@@ -6,39 +6,44 @@
     <packaging>war</packaging>
 
     <groupId>com.security.example</groupId>
-    <artifactId>springsecuritydemo</artifactId>
+    <artifactId>spring-security-helloworld-xml</artifactId>
     <version>1.0</version>
+
+    <properties>
+        <spring-version>4.1.1.RELEASE</spring-version>
+        <spring-security-version>3.2.3.RELEASE</spring-security-version>
+    </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>4.1.1.RELEASE</version>
+            <version>${spring-version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
-            <version>4.1.1.RELEASE</version>
+            <version>${spring-version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>4.1.1.RELEASE</version>
+            <version>${spring-version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-core</artifactId>
-            <version>3.2.3.RELEASE</version>
+            <version>${spring-security-version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-web</artifactId>
-            <version>3.2.3.RELEASE</version>
+            <version>${spring-security-version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-config</artifactId>
-            <version>3.2.3.RELEASE</version>
+            <version>${spring-security-version}</version>
         </dependency>
 
         <dependency>
@@ -54,7 +59,7 @@
     </dependencies>
 
     <build>
-
+        <finalName>spring-security-helloworld-xml</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
